@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+    <input_string>
+        <str>Hello amazing world</str>
+    </input_string>
+    <input_string>
+        <str>Hello world</str>>
+    </input_string>
+    <input_string1>
+        <str1>Привет привет, безумный мир.</str1>
+    </input_string1>
+    <input_string1>
+        <str1>Привет</str1>
+    </input_string1>
+</data>
