@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ChoiceBrowser">
+    <test name="testBrowser">
+        <parameter name="nameBrow1" value="chrome"></parameter>
+        <parameter name="nameBrow2" value="firefox"></parameter>
+        <classes>
+            <class name="org.TutBy"></class>
+        </classes>
+    </test>
+</suite>

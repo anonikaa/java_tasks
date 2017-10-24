@@ -25,7 +25,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>org.main</mainClass>
+                            <mainClass>org.Calc</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
@@ -34,5 +34,20 @@
         </plugins>
 
     </build>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <version>6.9.6</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-java</artifactId>
+            <version>3.6.0</version>
+        </dependency>
+
+    </dependencies>
 
 </project>

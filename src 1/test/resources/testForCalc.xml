@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+    <test name="test1">
+        <parameter name="sum" value="1.99+1.22"></parameter>
+        <parameter name="min" value="5.00-4.00"></parameter>
+        <parameter name="multiply" value="1.00*1.00"></parameter>
+        <parameter name="div" value="6.00/2.00"></parameter>
+        <parameter name="divByZero" value="5.00/0.00"></parameter>
+        <parameter name="negOneNumber" value="-3.00+1.00"></parameter>
+        <parameter name="negTwoNumber" value="4.00--2.00"></parameter>
+        <parameter name="negAllNumber" value="-2.00+-4.00"></parameter>
+        <parameter name="format" value="asd"></parameter>
+        <parameter name="format1" value="5.0007-1.00"></parameter>
+        <parameter name="format2" value="4.00h3.00"></parameter>
+        <parameter name="toRound" value="9.98/3.00"></parameter>
+        <classes>
+            <class name="org.TestCalc"></class>
+        </classes>
+    </test>
+</suite>
